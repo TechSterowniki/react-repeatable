@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cheton/react-repeatable.git"
+    "url": "git+ssh://git@github.com:TechSterowniki/react-repeatable.git"
   },
   "author": "Cheton Wu <cheton@gmail.com>",
   "contributors": [
@@ -33,9 +33,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cheton/react-repeatable/issues"
+    "url": "https://github.com/TechSterowniki/react-repeatable/issues"
   },
-  "homepage": "https://github.com/cheton/react-repeatable",
+  "homepage": "https://github.com/TechSterowniki/react-repeatable",
   "keywords": [
     "react",
     "repeatable",
