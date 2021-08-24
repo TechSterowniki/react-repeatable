@@ -1,6 +1,7 @@
 import chainedFunction from 'chained-function';
 import PropTypes from 'prop-types';
 import React from 'react';
+import { isMobile } from 'react-device-detect';
 
 class Repeatable extends React.Component {
     repeatDelayTimer = null
@@ -118,8 +119,6 @@ class Repeatable extends React.Component {
             ...props
         } = this.props;
 
-        const userAgentData = window.navigator.userAgentData || {};
-        const isMobile = userAgentData.mobile;
         const mobileEvents = {
             onTouchStart: chainedFunction(onTouchStart, this.handlePress),
             onTouchCancel: chainedFunction(onTouchCancel, this.handleRelease),
