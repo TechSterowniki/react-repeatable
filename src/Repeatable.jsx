@@ -117,7 +117,7 @@ class Repeatable extends React.Component {
             onTouchEnd,
             ...props
         } = this.props;
-        
+
         const userAgentData = window.navigator.userAgentData || {};
         const isMobile = userAgentData.mobile;
         const mobileEvents = {
