@@ -1,13 +1,13 @@
 {
   "name": "react-repeatable",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "A press and hold wrapper component that can trigger hold action multiple times while holding down.",
   "main": "lib/index.js",
   "files": [
     "lib"
   ],
   "scripts": {
-    "prepare": "npm run lint && npm test && npm run clean && npm run build && npm run styleguide:build",
+    "prepare": "npm run clean && npm run build",
     "build": "webpack-cli",
     "clean": "rm -f {lib,dist}/*",
     "demo": "http-server -p 8000 docs/",
