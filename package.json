@@ -7,7 +7,6 @@
     "lib"
   ],
   "scripts": {
-    "prepare": "npm run clean && npm run build",
     "build": "webpack-cli",
     "clean": "rm -f {lib,dist}/*",
     "demo": "http-server -p 8000 docs/",
